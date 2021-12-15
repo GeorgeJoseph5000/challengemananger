@@ -1,0 +1,102 @@
+#li-nav_add-person{
+    color: white;
+}
+#li-nav_add-person:hover{
+    color: rgba(255,255,255,.9);
+}
+
+#li-nav_add-challenge{
+    color: white;
+}
+#li-nav_add-challenge:hover{
+    color: rgba(255,255,255,.9);
+}
+body *{
+    transition: all 0.5s ease-in-out;
+}
+#li-nav{
+    color: white;
+}
+#li-nav:hover{
+    color: rgba(255,255,255,.9);
+}
+#navbarDropdown{
+    color: white;
+}
+#navbarDropdown:hover{
+    color: rgba(255,255,255,.5);
+}
+#dropdown-item{
+    color: white;
+}
+#dropdown-item:hover{
+    color: black;
+}
+.theFooter{
+    opacity: 0.9;
+    text-align: center;
+    font-size: 13px;
+    background: #5a0063;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    padding: 0px;
+}
+.theFooter a{
+    color: rgba(255,255,255,.5);
+}
+.theFooter a:visited{
+    color: #cccfc4;
+}
+.theFooter a:hover{
+    color: #cccfc4;
+}
+.jumbotron-container{
+    height: 480px; 
+    width: 100%;
+}
+.jumbotron-color{
+    position: absolute; 
+    height: 480px; 
+    width: 100%;
+    border-radius: 10px;
+}
+.jumbotron-backimage{
+    background-position: center; 
+    background-size: cover; 
+    height: 480px; 
+    width: 100%;
+    border-radius: 10px;
+}
+.jumbotron-body-container{
+    width: 75%;
+    margin: auto;
+}
+#katyba-img{
+    width:90%;
+}
+#katyba-img:hover{
+    width:95%;
+}
+
+@media only screen and (max-width: 600px) {
+    #katyba-img{
+        margin-top: 90px;
+    }
+  }
+
+@media only screen and (min-width: 520px) and (max-width: 768px) {
+#katyba-img{
+    width:70%;
+}
+#katyba-img:hover{
+    width:75%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 970px) {
+    #katyba-img{
+        margin-top: 90px;
+    }
+}
